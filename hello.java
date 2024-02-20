@@ -3,5 +3,8 @@ public class hello {
         double c = 0.7;
         System.out.println("Hello, World");
         System.out.println(c);
+
+        String name = "John Doe";
+        System.out.println(name);
     }
 }
