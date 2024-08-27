@@ -110,7 +110,7 @@ public class PerformanceTester {
 ```java
 public class PerformanceTester {
   // TcpConnectionSimulator(throughput, latency, jitter, packet_loss)
-  //                         [Kbps]   [ms]    [ms]    [percent]
+  //                           [Kbps]   [ms]    [ms]    [percent]
 
   public static final TcpConnectionSimulator wifi =
     new TcpConnectionSimulator(500,    80,     200,    1);
