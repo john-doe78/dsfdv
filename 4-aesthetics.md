@@ -186,8 +186,6 @@ It’s easier to distinguish the second and third arguments to `checkFullName()`
 
 ### Before:
 
-These five variable definitions could be written in any order:
-
 ```py
 details  = request.POST.get('details')
 location = request.POST.get('location')
