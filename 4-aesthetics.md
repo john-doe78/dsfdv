@@ -10,9 +10,7 @@ Aesthetic principles for writing clear, maintainable code include:
 
 **Principle**: Maintain a consistent layout so that readers can easily follow your code structure.
 
-### Example:
-
-#### Before:
+### Before:
 
 ```cpp
 class StatsKeeper {
@@ -31,7 +29,7 @@ class StatsKeeper {
 };
 ```
 
-#### After:
+### After:
 
 ```cpp
 // A class for keeping track of a series of doubles and methods for quick statistics about them.
@@ -52,9 +50,7 @@ class StatsKeeper {
 
 **Principle**: Introduce line breaks for consistency and compactness to enhance readability.
 
-### Example:
-
-#### Before:
+### Before:
 
 ```java
 public class PerformanceTester {
@@ -78,7 +74,7 @@ public class PerformanceTester {
 }
 ```
 
-#### After:
+### After:
 
 ```java
 public class PerformanceTester {
@@ -127,9 +123,7 @@ public class PerformanceTester {
 
 **Principle**: Abstract repetitive or complex testing into helper methods to improve clarity.
 
-### Example:
-
-#### Before:
+### Before:
 
 ```cpp
 DatabaseConnection database_connection;
@@ -150,7 +144,7 @@ assert(expandFullName(database_connection, "John", &error) == "");
 assert(error == "more than one result");
 ```
 
-#### After:
+### After:
 
 ```cpp
 void CheckFullName(
@@ -190,9 +184,7 @@ It’s easier to distinguish the second and third arguments to `checkFullName()`
 
 **Principle**: Order elements in a meaningful and consistent manner to avoid confusion.
 
-### Example:
-
-#### Before:
+### Before:
 
 These five variable definitions could be written in any order:
 
@@ -204,7 +196,7 @@ email    = request.POST.get('email')
 url      = request.POST.get('url')
 ```
 
-#### After:
+### After:
 
 ```py
 # Order by the HTML form input fields
@@ -219,9 +211,7 @@ details  = request.POST.get('details')
 
 **Principle**: Break large blocks of code into smaller, logical sections for better readability and structure.
 
-### Example:
-
-#### Before:
+### Before:
 
 No one likes to read a giant lump of code like this:
 
@@ -241,7 +231,7 @@ def suggest_new_friends(user, email_password):
   return render("suggested_friends.html", display)
 ```
 
-#### After:
+### After:
 
 So it would be especially useful to break up those lines of code into paragraphs:
 
