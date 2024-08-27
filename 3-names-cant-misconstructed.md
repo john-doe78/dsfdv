@@ -70,7 +70,7 @@ To avoid this confusion, use `MAX_ITEMS_IN_CART = 10`:
 
 When dealing with ranges, clarity on inclusivity is important.
 
-**Inclusive Ranges**
+### Inclusive Ranges
 
 For ranges where both endpoints are included, use `first` and `last`:
 
@@ -80,7 +80,7 @@ set.printKeys(first="Bart", last="Maggie")
 
 Alternatively, `min` and `max` can work if contextually appropriate.
 
-**Exclusive Ranges**
+### Exclusive Ranges
 
 For ranges where one endpoint is exclusive, use `begin` and `end`:
 
