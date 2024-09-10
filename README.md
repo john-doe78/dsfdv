@@ -1,3 +1,26 @@
+<a href="https://codewithmosh.com/p/complete-sql-mastery"><img src="https://i.ibb.co/R7zJPnZ/image.png" alt="ultimate-sql"></a>
+
+* [x] ~~Getting Started (25m)~~
+* [x] ~~Retrieving Data from a Single Table (60m)~~
+* [x] ~~Retrieving Data from Multiple Tables (1h)~~
+* [x] ~~Inserting, Updating, and Deleting Data (42m)~~
+* [x] ~~Summarizing Data (31m)~~
+* [x] ~~Writing Complex Query (39m)~~
+* [x] ~~Essential MySQL Functions (32m)~~
+* [x] ~~Views (19m)~~
+* [x] ~~Stored Procedures (49m)~~
+* [x] ~~Triggers and Events (21m)~~
+* [ ] Transactions and Concurrency (44m)
+* [ ] Data Types (24m)
+* [ ] Designing Databases (2h)
+* [ ] Indexing for High Performance (53m)
+* [ ] Securing Databases (15m)
+----
+
+
+
+
+
 * [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) by Robert C. Martin
     * [JuanCrg90/Clean-Code-Notes](https://github.com/JuanCrg90/Clean-Code-Notes)
     * [Clean Code Audio book](https://www.youtube.com/watch?v=-8h1sZ6nyY0)
